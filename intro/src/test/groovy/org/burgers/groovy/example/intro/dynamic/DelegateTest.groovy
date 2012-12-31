@@ -6,8 +6,8 @@ class DelegateTest {
     class MyString {
         @Delegate
         String value = "potato"
-
     }
+
     @Test
     void delegation_with_at_delegate(){
         assert "otatop" == new MyString().reverse()
