@@ -1,4 +1,4 @@
-# A script for rebasing a directory full of git repositories
+// A script for rebasing a directory full of git repositories
 
 File file = new File(args[0])
 
