@@ -1,9 +1,10 @@
-package org.burgers.groovy.example.intro
+package org.burgers.groovy.example.intro.basic
 
 import org.junit.Test
 
 import static java.util.Arrays.asList
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertEquals
+import org.burgers.groovy.example.intro.Movie;
 
 class MovieTest {
 
