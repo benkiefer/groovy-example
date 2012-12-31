@@ -20,5 +20,17 @@ class BehaviorModificationTest {
         assert "potato" == "otatop".backwards()
     }
 
+    class MyString {
+        def value = "potato"
+    }
+
+    @Test
+    void borrowing_methods(){
+        MyString.metaClass.backwards {
+            delegate.value.reverse()
+        }
+
+        assert "otatop" == new MyString().backwards()
+    }
 
 }
