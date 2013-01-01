@@ -4,9 +4,13 @@ import org.junit.Test
 
 import static java.util.Arrays.asList
 import static org.junit.Assert.assertEquals
-import org.burgers.groovy.example.intro.Movie;
 
 class MovieTest {
+
+    class Movie {
+        def title
+        def actors
+    }
 
     @Test
     void construction_the_java_way(){
