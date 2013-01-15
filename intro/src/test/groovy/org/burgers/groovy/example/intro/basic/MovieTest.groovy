@@ -49,4 +49,17 @@ class MovieTest {
         assert movie.title == title
     }
 
+    @Test
+    void setter_syntax(){
+        def actors = ["me", "myself", "i"]
+        def title = "About Me"
+
+        def movie = new Movie()
+        movie.actors = actors
+        movie.title = title
+
+        assert movie.actors == actors
+        assert movie.title == title
+    }
+
 }
