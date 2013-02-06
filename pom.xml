@@ -13,6 +13,7 @@
         <module>parent</module>
         <module>intro</module>
         <module>homework</module>
+        <module>java-refactor</module>
     </modules>
 
 </project>
