@@ -1,5 +1,7 @@
 # A Groovy Example
 
+[![Build Status](https://secure.travis-ci.org/benkiefer/groovy-example.png?branch=master)](http://travis-ci.org/benkiefer/groovy-example)
+
 This project is just a couple of simple modules to help someone new to Groovy get started. There are three modules that will be of interest:
 
  - Intro: code examples of some of the language level features that I've found most helpful in Groovy.
