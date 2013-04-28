@@ -5,8 +5,8 @@ import org.burgers.groovy.GroovyHomework
 import org.junit.Ignore
 
 class UrlTest extends GroovyHomework {
-    String ben = "https://github.com/kingOburgers"
-    String spencer = "https://github.com/whelmingBytes"
+    String ben = "https://github.com/benkiefer"
+    String spencer = "https://github.com/sherzberg"
 
     @Ignore
     @Test
