@@ -7,4 +7,4 @@ This project is just a couple of simple modules to help someone new to Groovy ge
  - Scripts: not really a module, but a folder containing a couple of simple Groovy scripts that you can play around with.
  - Java-Example: a place to show how to cut over to Groovy from Java.
 
-All code examples are tested against Groovy 2.0.6.
+All code examples are tested against Groovy 2.1.3.
