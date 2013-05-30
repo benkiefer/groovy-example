@@ -10,3 +10,6 @@ This project is just a couple of simple modules to help someone new to Groovy ge
  - Java-Example: a place to show how to cut over to Groovy from Java.
 
 All code examples are tested against Groovy 2.1.3.
+
+#Todo:
+ - add a couple of spock examples
